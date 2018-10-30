@@ -69,5 +69,5 @@ The game won't start if there's no joystick/controller present.
 
 ## Credits
 
-- Collision detection taken function from http://love2d.org/wiki/BoundingBox.lua
-- Font 1942 found at Font Squirell http://www.fontsquirrel.com/
+- Collision detection used is [BoundingBox](https://love2d.org/wiki/BoundingBox.lua) from LÖVE wiki
+- Font used is [1942 Report](https://www.fontsquirrel.com/fonts/1942-report) by Johan Holmdahl and found at [Font Squirrel](https://www.fontsquirrel.com/)
