@@ -213,7 +213,7 @@ function love.update(dt)
     love.graphics.print("Joystick detected")
   end
 
-  if player1.active and player1.dead == false then
+  if joystick and player1.active and player1.dead == false then
     if joystick:isDown(5) then
       moveUp(player1, dt)
     elseif joystick:isDown(6) then
@@ -282,7 +282,7 @@ function love.update(dt)
     updateNPC(npcs[i], dt)
   end
   
-  if joystick:isDown(13) then
+  if joystick and joystick:isDown(13) then
     highlightPlayer(dt)
     pling = true
   else
@@ -395,7 +395,7 @@ function love.update(dt)
 
   -- I always start with an easy way to exit the game
 	if love.keyboard.isDown('escape') or
-      joystick:isDown(4) then
+      joystick and joystick:isDown(4) then
 		love.event.push('quit')
 	end
   
