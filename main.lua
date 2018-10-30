@@ -200,7 +200,7 @@ function love.load(arg)
 	{x = 1150, y = 645, w = 215, h = 123}
 }
 
-  love.window.setFullscreen(true, "desktop")
+  --love.window.setFullscreen(true, "desktop")
   
   spawnDot()
 end
@@ -213,7 +213,7 @@ function love.update(dt)
     love.graphics.print("Joystick detected")
   end
 
-  if player1.active and player1.dead == false then
+  if joystick and player1.active and player1.dead == false then
     if joystick:isDown(5) then
       moveUp(player1, dt)
     elseif joystick:isDown(6) then
@@ -239,7 +239,7 @@ function love.update(dt)
     player2.animation.angle = 0
   end
   
-  if love.keyboard.isDown('lctrl') and player2.timer > 0 and player2.attack == false then
+  if love.keyboard.isDown('lalt') and player2.timer > 0 and player2.attack == false then
     player2.attack = true
     player2.timer = 3
     love.audio.play(attackSound)
@@ -253,7 +253,7 @@ function love.update(dt)
     end
   end
   
-  if love.keyboard.isDown('rctrl') and player3.timer > 0 and player3.attack == false then
+  if love.keyboard.isDown('ralt') and player3.timer > 0 and player3.attack == false then
     player3.attack = true
     player3.timer = 3
     if attack(player3) then
@@ -282,7 +282,7 @@ function love.update(dt)
     updateNPC(npcs[i], dt)
   end
   
-  if joystick:isDown(13) then
+  if joystick and joystick:isDown(13) then
     highlightPlayer(dt)
     pling = true
   else
@@ -395,7 +395,7 @@ function love.update(dt)
 
   -- I always start with an easy way to exit the game
 	if love.keyboard.isDown('escape') or
-      joystick:isDown(4) then
+      joystick and joystick:isDown(4) then
 		love.event.push('quit')
 	end
   

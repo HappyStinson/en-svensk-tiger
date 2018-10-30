@@ -30,21 +30,25 @@ The game includes a blue and yellow tiger who gives feedback to the players.
 - Hold `Joystick button 13` to highlight the spy
 - `Joystick button 4` to quit the game
 
-### Player 2 (The x Guard)
+### Player 2 (The German Soldier)
+
+![The German Soldier](assets/tysk.png)
 
 - `W` to move up
 - `A` to move left
 - `S` to move down
 - `D` to move right
-- `Left Ctrl` to use bat
+- `Left alt` to use bat
 
-### Player 3 (The y Guard)
+### Player 3 (The Russian Soldier)
+
+![The Russian Soldier](assets/ryss.png)
 
 - `Up` to move up
 - `Left` to move left
 - `Down` to move down
 - `Right` to move right
-- `Right Ctrl` to use bat
+- `Right alt` to use bat
 
 ## Gameplay
 
@@ -65,5 +69,5 @@ The game won't start if there's no joystick/controller present.
 
 ## Credits
 
-- Collision detection taken function from http://love2d.org/wiki/BoundingBox.lua
-- Font 1942 found at Font Squirell http://www.fontsquirrel.com/
+- Collision detection used is [BoundingBox](https://love2d.org/wiki/BoundingBox.lua) from LÖVE wiki
+- Font used is [1942 Report](https://www.fontsquirrel.com/fonts/1942-report) by Johan Holmdahl and found at [Font Squirrel](https://www.fontsquirrel.com/)
