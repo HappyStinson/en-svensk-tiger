@@ -38,7 +38,7 @@ The game includes a blue and yellow tiger who gives feedback to the players.
 - `A` to move left
 - `S` to move down
 - `D` to move right
-- `Left Ctrl` to use bat
+- `Left alt` to use bat
 
 ### Player 3 (The Russian Soldier)
 
@@ -48,7 +48,7 @@ The game includes a blue and yellow tiger who gives feedback to the players.
 - `Left` to move left
 - `Down` to move down
 - `Right` to move right
-- `Right Ctrl` to use bat
+- `Right alt` to use bat
 
 ## Gameplay
 

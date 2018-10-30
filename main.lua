@@ -239,7 +239,7 @@ function love.update(dt)
     player2.animation.angle = 0
   end
   
-  if love.keyboard.isDown('lctrl') and player2.timer > 0 and player2.attack == false then
+  if love.keyboard.isDown('lalt') and player2.timer > 0 and player2.attack == false then
     player2.attack = true
     player2.timer = 3
     love.audio.play(attackSound)
@@ -253,7 +253,7 @@ function love.update(dt)
     end
   end
   
-  if love.keyboard.isDown('rctrl') and player3.timer > 0 and player3.attack == false then
+  if love.keyboard.isDown('ralt') and player3.timer > 0 and player3.attack == false then
     player3.attack = true
     player3.timer = 3
     if attack(player3) then
