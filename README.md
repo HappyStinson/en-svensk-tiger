@@ -30,7 +30,9 @@ The game includes a blue and yellow tiger who gives feedback to the players.
 - Hold `Joystick button 13` to highlight the spy
 - `Joystick button 4` to quit the game
 
-### Player 2 (The x Guard)
+### Player 2 (The German Soldier)
+
+![The German Soldier](assets/tysk.png)
 
 - `W` to move up
 - `A` to move left
@@ -38,7 +40,9 @@ The game includes a blue and yellow tiger who gives feedback to the players.
 - `D` to move right
 - `Left Ctrl` to use bat
 
-### Player 3 (The y Guard)
+### Player 3 (The Russian Soldier)
+
+![The Russian Soldier](assets/ryss.png)
 
 - `Up` to move up
 - `Left` to move left
