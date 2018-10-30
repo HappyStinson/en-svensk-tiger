@@ -200,7 +200,7 @@ function love.load(arg)
 	{x = 1150, y = 645, w = 215, h = 123}
 }
 
-  love.window.setFullscreen(true, "desktop")
+  --love.window.setFullscreen(true, "desktop")
   
   spawnDot()
 end
